@@ -262,7 +262,6 @@ section {
   font-size: 3.5rem;
   color: var(--black);
   line-height: 1.8;
-  text-align: center;
 }
 
 .about .row .content h3 span {
@@ -320,6 +319,10 @@ section {
   width: 50%;
 }
 
+.about .row .progress .bar-1-4 span {
+    width: 30%;
+  }
+
 .about .row .progress .bar-2-1 span {
   width: 45%;
 }
@@ -331,6 +334,10 @@ section {
 .about .row .progress .bar-2-3 span {
   width: 35%;
 }
+
+.about .row .progress .bar-2-4 span {
+    width: 25%;
+  }
 
 .services .box-container {
   display: grid;
